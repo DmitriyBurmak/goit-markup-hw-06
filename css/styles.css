@@ -129,8 +129,7 @@ img {
 
 @media screen and (min-width: 768px) { 
     .mobile-btn{
-            display: none;
-         }
+            display: none;}
     .nav-list {
             display: flex;
             align-items: center;      
@@ -148,12 +147,12 @@ img {
             margin-right: 120px;
             padding: 24px 0;}
 
-    .nav-pages:hover, .nav-pages:focus, .nav-pages:active {
+    .nav-pages:hover, .nav-pages:focus {
             color: #404bbf;}
 
     .nav-pages {
              display: block;
-             font-weight: 500px;
+             font-weight: 500;
              font-size: 16px;
              line-height: 1.5;
              letter-spacing: 0.02em;
@@ -165,7 +164,7 @@ img {
 
     .page-studio {
             position: relative;
-            color: #404bbf;          }
+            color: #404bbf;}
 
     .page-studio::after {
           content: '';
@@ -248,47 +247,36 @@ height: 24px;
 padding: 0;
 border: 1px solid #E7E9FC;
 border-radius: 50%;
-background-color: transparent;
-}
-.nav-mobile {
-   
-   margin-bottom: auto;
+background-color: transparent;}
 
-}
+.nav-mobile {   
+   margin-bottom: auto;}
+
 .nav-list-mobile { display: flex;
     flex-direction: column;
-    gap: 40px;
-    
-}
-.nav-item-mobile {
-   
-}
+    gap: 40px;}
+
 .nav-pages-mobile {
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-}
 .page-studio-mobile {
-    color: #404bbf;
-}
+    color: #404bbf;}
 
 .nav-pages-mobile:hover, .nav-pages-.nav-pages-mobile, .contacts-link-menu:hover, .contacts-link-menu:focus {
     color: #404bbf;}
 
 .header-addr-menu {
-    margin-bottom: 48px;
-}
+    margin-bottom: 48px;}
+
 .contacts-menu {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-}
-
-    
+    gap: 24px;}
 
 .contacts-link-menu {
     font-weight: 500;
@@ -297,17 +285,13 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #434455;
 font-style: normal;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-}
 .contacts-link-mail{color: #4d5ae5;}
-
 
 .social-menu {
     display: flex;
-    gap: 40px;
-    
-}
+    gap: 40px;}
 
 .social-link-menu {
     display: flex;
@@ -317,9 +301,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 40px;
     border-radius: 50%;
     background-color: #4d5ae5;
-    fill: #f4f4fd;
-
-}
+    fill: #f4f4fd;}
 
 
 @media screen and (min-width: 768px)
@@ -341,8 +323,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover;}
 
 .hero-name {
     font-weight: 700;
@@ -354,9 +335,7 @@ color: #fff;
 max-width: 216px;
 margin-left: auto;
   margin-right: auto;
-margin-bottom: 72px;
-}
-
+margin-bottom: 72px;}
 
 .hero-button {
     font-weight: 500;
@@ -368,13 +347,11 @@ margin-bottom: 72px;
   border: 0;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- 
-}
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {.hero{ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-    url(../images/mobile/Dark-bg@2x-mobile.jpg);}
-    
-}
+    url(../images/mobile/Dark-bg@2x-mobile.jpg);}}
+
 @media screen and (min-width: 768px)
 {.hero{padding-top: 112px;
     padding-bottom: 112px;
@@ -385,14 +362,11 @@ margin-bottom: 72px;
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
-    margin-bottom: 36px;}
-}
+    margin-bottom: 36px;}}
 
 @media screen and (min-width:768px) and (min-resolution: 192dpi) {.hero{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        url(../images/tablet/Dark-bg-tablet@2x.jpg);}
-    
-}
+        url(../images/tablet/Dark-bg-tablet@2x.jpg);}}
 
 @media screen and (min-width: 1158px)
 {.hero
@@ -400,11 +374,8 @@ margin-bottom: 72px;
         padding-bottom: 188px;
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        url(../images/desktop/people-office-bg-desktop.jpg);
-}
-.hero-name{
-           margin-bottom: 48px;}
-}
+        url(../images/desktop/people-office-bg-desktop.jpg);}
+.hero-name{margin-bottom: 48px;}}
 
 @media screen and (min-width:1158px) and (min-resolution: 192dpi) {.hero{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
