@@ -411,3 +411,78 @@ margin-bottom: 72px;
 
 
 /* #endregion */
+
+/* #region Priorities */
+
+.priorities-container
+{display: flex;
+padding-top: 96px;
+padding-bottom: 96px;}
+
+.priorities-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;}
+
+.icon {display: none;}
+
+.priorities-list-name {
+margin-bottom: 8px;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;}
+
+.priorities-list-text {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+@media screen and (min-width: 768px) {
+  .priorities-list-item {
+       flex-basis: calc((100% - 24px) / 2);
+  }
+  .priorities-list {row-gap: 72px;
+  column-gap: 24px;}
+  .priorities-list-name {
+    text-align: start;
+  }  
+}
+
+@media screen and (min-width: 1158px) {
+  .priorities-container
+  {
+  padding-top: 120px;
+  padding-bottom: 120px;}
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+    height: 112px;
+  }
+  .priorities-list-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .priorities-list-name {
+     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+  }
+  .priorities-list-text {
+    font-weight: 400;  }
+  
+}
+
+
+/* #endregion */
